@@ -55,3 +55,9 @@ report_text.pack()
 reports = {}
 
 app.mainloop()
+
+#The tool is a Python script that takes the input of a website name or IP address, creates a directory for it, runs passive reconnaissance using several tools, runs nmap, creates a file for every open port, and looks up vulnerabilities for each file.
+
+#The script first creates a directory with the name of the domain and then runs passive reconnaissance using several tools such as amass, sublist3r, aquatone, and nmap. It creates a file in the directory with the output of each tool. After that, it runs nmap with aggressive scanning options, creates a file for every open port, and looks up vulnerabilities for each open port using the nmap vuln script. For each open port, it creates a file with the output of the nmap vuln script.
+
+#This tool is useful for performing a comprehensive network audit, port analysis, and vulnerability assessment of a website or IP address. It automates the process of running multiple reconnaissance and vulnerability assessment tools, saving time and effort. The output files can be used to identify potential security risks and vulnerabilities, and to take proactive steps to mitigate them.
