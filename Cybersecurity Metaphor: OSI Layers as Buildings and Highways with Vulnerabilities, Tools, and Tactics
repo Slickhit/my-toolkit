@@ -1,0 +1,59 @@
+  OSI Layers     Highway System &  Vulnerabilities    Hacking Tools     Hacking Methodology  Defense Tactics        Defensive Tools
+                 Buildings
+
++-------------+  +--------------+  +--------------+  +--------------+  +----------------+  +-------------------+  +---------------+
+| Layer 7:    |  | Building:    |  | Unauthorized |  | SQLMap       |  | Exploitation  |  | Input validation  |  | Web           |
+| Application |  | Application  |  | access to    |  | Burp Suite   |  | Maintaining   |  | Secure coding    |  | Application   |
+|             |  | - Reception  |  | data         |  | BeEF         |  | Access        |  | practices        |  | Firewalls     |
+|             |  | - Offices    |  | Insecure APIs|  | ...          |  | ...           |  | ...              |  | (WAF)         |
++-------------+  +--------------+  +--------------+  +--------------+  +----------------+  +-------------------+  +---------------+
+        |             |                 |                  |                |                    |                  |
++-------------+  +--------------+  +--------------+  +--------------+  +----------------+  +-------------------+  +---------------+
+| Layer 6:    |  | Building:    |  | Weak         |  | OpenSSL      |  | Exploitation  |  | Secure data       |  | Data Loss     |
+| Presentation|  | Presentation |  | encryption   |  | ...          |  | ...           |  | encryption        |  | Prevention    |
+|             |  | - Lobby      |  | Data leakage |                |                |  | ...              |  | (DLP)         |
+|             |  | - Elevators  |  | Insecure data|                |                |  | ...              |  | ...           |
+|             |  | /Stairs      |  | formatting   |                |                |                    |                  |
++-------------+  +--------------+  +--------------+                +----------------+  +-------------------+  +---------------+
+        |             |                 |                                         |                    |                  |
++-------------+  +--------------+  +--------------+  +--------------+  +----------------+  +-------------------+  +---------------+
+| Layer 5:    |  | Building:    |  | Session      |  | Metasploit   |  | Exploitation  |  | Secure session    |  | Intrusion     |
+| Session     |  | Session      |  | hijacking    |  | ...          |  | ...           |  | management        |  | Detection     |
+|             |  | - Security  |  | Session      |                |                |  | ...              |  | Systems (IDS) |
+|             |  | Desk         |  | fixation     |                |                |  | ...              |  | ...           |
+|             |  | - Conference |  | Insufficient |                |                |                    |                  |
+|             |  | Rooms        |  | session      |                |                |                    |                  |
+|             |  |              |  | protection   |                |                |                    |                  |
++-------------+  +--------------+  +--------------+                +----------------+  +-------------------+  +---------------+
+        |             |                 |                                        
+ OSI Layers     Highway System &  Vulnerabilities       Hacking Tools    Hacking Methodology  Defense Tactics        Defensive Tools
+                 Buildings
+
++-------------+  +--------------+  +------------------+  +--------------+  +----------------+  +-------------------+  +---------------+
+| Layer 4:    |  | Building:    |  | SYN Flood        |  | Nmap         |  | Scanning      |  | Traffic filtering |  | Firewall      |
+| Transport   |  | Transport    |  | Port scanning    |  | Hping3       |  | ...           |  | Rate limiting     |  | ...           |
+|             |  | - Parking Lot|  |                  |  | ...          |                |  | ...              |                  |
++-------------+  +--------------+  +------------------+                +----------------+  +-------------------+  +---------------+
+        |             |                 |                                              |                    |                  |
++-------------+  +--------------+  +------------------+  +--------------+  +----------------+  +-------------------+  +---------------+
+| Layer 3:    |  | Building:    |  | IP Spoofing      |  | Wireshark    |  | Scanning      |  | Packet filtering  |  | Firewall      |
+| Network     |  | Network      |  | Man-in-the-middle|  | ...          |  | ...           |  | Network segmentation| | ...           |
+|             |  | - Roads      |  |                  |                |                |  | ...              |                  |
++-------------+  +--------------+  +------------------+                +----------------+  +-------------------+  +---------------+
+        |             |                 |                                              |                    |                  |
++-------------+  +--------------+  +------------------+  +--------------+  +----------------+  +-------------------+  +---------------+
+| Layer 2:    |  | Building:    |  | MAC Address      |  | Ettercap     |  | Scanning      |  | MAC filtering     |  | NAC           |
+| Data Link   |  | Data Link    |  | spoofing         |  | ...          |  | ...           |  | Port security     |  | ...           |
+|             |  | - Bridges    |  |                  |                |                |  | ...              |                  |
++-------------+  +--------------+  +------------------+                +----------------+  +-------------------+  +---------------+
+        |             |                 |                                              |                    |                  |
++-------------+  +--------------+  +------------------+  +--------------+  +----------------+  +-------------------+  +---------------+
+| Layer 1:    |  | Building:    |  | Physical         |  | ...          |  | ...           |  | Physical security |  | Security      |
+| Physical    |  | Physical     |  | tampering        |                |                |  | ...              |  | cameras       |
+|             |  | - Power lines|  |                  |                |                |  | ...              |  | Access control|
+|             |  | - Fiber optic|  |                  |                |                |                    |  | ...           |
+|             |  | cables       |  |                  |                |                |                    |                  |
++-------------+  +--------------+  +------------------+                +----------------+  +-------------------+  +---------------+
+
+
+
